@@ -39,9 +39,9 @@ Provision the necessary AWS services needed for running the application:
 
 ## Deployment
 
-- [http://abbas-udagram-bucket.s3-website-us-east-1.amazonaws.com/](http://abbas-udagram-bucket.s3-website-us-east-1.amazonaws.com/) - S3 Bucket - udagram-frontend
-- [![Build Status](https://circleci.com/gh/yasser1412/udagram.svg?style=shield)](https://circleci.com/gh/yasser1412/udagram)
+- [http://abbas-udagram-bucket.s3-website-us-east-1.amazonaws.com/](http://abbas-udagram-bucket.s3-website-us-east-1.amazonaws.com/) - S3 Bucket - **abbas-udagram-bucket**
+- [![CircleCI](https://circleci.com/gh/MostafaAbbas-git/udagram.svg?style=svg)](https://app.circleci.com/pipelines/github/MostafaAbbas-git/udagram)
 
 ## Documents
 
-### Click [here](https://github.com/yasser1412/udagram/tree/main/Documentation) to open the Documents
+### Click [here](https://github.com/MostafaAbbas-git/udagram/tree/main/Documentation) to open the Documents
