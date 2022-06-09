@@ -7,10 +7,12 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "deploy": "npm install -f && npm run build && chmod +x bin/deploy.sh && bin/deploy.sh",
-    "test": "ng test --watch=false",
+    "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh",
+    "full-deploy": "npm install -f && npm run build && chmod +x bin/deploy.sh && bin/deploy.sh",
+    "test": "ng test -- --no-watch --no-progress --browsers=ChromeHeadlessCI",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e -- --protractor-config=e2e/protractor-ci.conf.js",
+    "karmaCli": "npm install karma-spec-reporter --save-dev --force"
   },
   "private": true,
   "dependencies": {
@@ -52,6 +54,7 @@
     "karma-coverage-istanbul-reporter": "~2.0.1",
     "karma-jasmine": "~1.1.2",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "karma-spec-reporter": "^0.0.34",
     "protractor": "~5.4.0",
     "ts-node": "~8.0.0",
     "tslint": "~5.12.0",

@@ -39,7 +39,7 @@ Provision the necessary AWS services needed for running the application:
 
 ## Deployment
 
-- [http://udagram-yasser.s3-website.us-east-2.amazonaws.com](http://udagram-yasser.s3-website.us-east-2.amazonaws.com) - S3 Bucket - udagram-frontend
+- [http://abbas-udagram-bucket.s3-website-us-east-1.amazonaws.com/](http://abbas-udagram-bucket.s3-website-us-east-1.amazonaws.com/) - S3 Bucket - udagram-frontend
 - [![Build Status](https://circleci.com/gh/yasser1412/udagram.svg?style=shield)](https://circleci.com/gh/yasser1412/udagram)
 
 ## Documents
