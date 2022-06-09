@@ -17,4 +17,4 @@ The pipeline is set up and connected with this GitHub repository in CircleCI.
 6. BackEnd deploy on the AWS Elastic Beanstalk service
 
 ![pipline chart](Screenshots/pipeline_circleci.png)
-![CircleCi pipline](Screenshots/actual_circleci.jpg)
+![CircleCi pipline](Screenshots/circleci.jpg)
